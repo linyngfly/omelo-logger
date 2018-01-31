@@ -1,5 +1,5 @@
 
-let logger1 = require('../lib/logger')
+let logger1 = require('./omelo-logger')
 
 let config = {
     "appenders": {
@@ -29,7 +29,7 @@ let config = {
 
   logger1.configure(config);
 
-  let logger = require('../lib/logger').getLogger('default');
+  let logger = logger1.getLogger('game');
 
 logger.info('test1');
 logger.warn('test2');
