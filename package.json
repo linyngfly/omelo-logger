@@ -1,6 +1,9 @@
 {
   "name": "omelo-logger",
   "version": "0.0.1",
+  "private": false,
+  "deprecated": false,
+  "description": "`omelo-logger` is base pomelo-logger, support es6 version",
   "homepage": "https://github.com/linyngfly/omelo-logger",
   "repository": {
     "type": "git",
@@ -31,11 +34,14 @@
   "dependencies": {
     "log4js": "^2.5.2"
   },
-  "deprecated": false,
-  "description": "omelo-logger ========",
   "devDependencies": {
     "mocha": ">=0.0.1",
     "should": ">=0.0.1"
   },
-  "private": false
+  "contributors": [
+    {
+      "name": "linyngfly",
+      "email": "linyngfly@163.com"
+    }
+  ]
 }
