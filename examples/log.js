@@ -29,7 +29,7 @@ let config = {
 
   logger1.configure(config);
 
-  var logger = require('../lib/logger').getLogger('default');
+  let logger = require('../lib/logger').getLogger('default');
 
 logger.info('test1');
 logger.warn('test2');
