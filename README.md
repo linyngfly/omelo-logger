@@ -1,11 +1,11 @@
-pomelo-logger
+omelo-logger
 ========
 
-pomelo-logger is a [log4js](https://github.com/nomiddlename/log4js-node) wrapper for [pomelo](https://github.com/NetEase/pomelo) which provides some useful features.  
+omelo-logger is a [log4js](https://github.com/nomiddlename/log4js-node) wrapper for [omelo](https://github.com/NetEase/omelo) which provides some useful features.  
 
 ## Installation
 ```
-npm install pomelo-logger
+npm install omelo-logger
 ```
 
 ## Features
@@ -25,7 +25,7 @@ to use this feature, add this code
 process.env.LOGGER_LINE = true;
 ```
 
-in pomelo, you just configure the log4js file and set **lineDebug** for true  
+in omelo, you just configure the log4js file and set **lineDebug** for true  
 ```
 {
   "appenders": [
@@ -47,7 +47,7 @@ to use this feature, add this code
 process.env.RAW_MESSAGE = true;
 ```
 
-in pomelo, you just configure the log4js file and set **rawMessage** for true  
+in omelo, you just configure the log4js file and set **rawMessage** for true  
 ```
 {
   "appenders": [
@@ -63,7 +63,7 @@ in pomelo, you just configure the log4js file and set **rawMessage** for true
 ```
 
 ### dynamic configure logger level
-in pomelo logger configuration file log4js.json, you can add reloadSecs option. The reloadSecs means reload logger configuration file every given time. For example
+in omelo logger configuration file log4js.json, you can add reloadSecs option. The reloadSecs means reload logger configuration file every given time. For example
 ```
 {
 	"reloadSecs": 30

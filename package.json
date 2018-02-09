@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": false,
   "deprecated": false,
-  "description": "`omelo-logger` is base pomelo-logger, support es6 version",
+  "description": "`omelo-logger` is base omelo-logger, support es6 version",
   "homepage": "https://github.com/linyngfly/omelo-logger",
   "repository": {
     "type": "git",
